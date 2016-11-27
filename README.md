@@ -1,3 +1,3 @@
 # README
 
-Software as a service rails application
+Software-as-a-Service Ruby on Rails Application
