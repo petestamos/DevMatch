@@ -17,7 +17,14 @@
                   <%= link_to user do %>
                     <h2 class="membership"><%= user.profile.first_name %> <%= user.profile.last_name %></h2>
                   <% end %>
-                  <p class="membership"><%= user.profile.job_title %></p>
+                  <p class="membership">
+                    <%= user.profile.job_title %>
+                    <% if user.plan_id == 2 %>
+                      <span class="label label-danger">PRO</span>
+                    <% else %>
+                       <span class="label label-info">BASIC</span>
+                    <% end %>
+                  </p>
                 </div>
               </div>
             </li>
