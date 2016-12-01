@@ -1,6 +1,8 @@
 .avatar-show-img {
-  width: 128px;
-  height: 128px;
+  width: 100%;
+  border: 2px solid #FFF;
+  border-radius: 5px;
+  margin-top: 25px;
 }
 
 .job-title-icon {
@@ -35,9 +37,9 @@
 
 // User index page styles
 .user-index-avatar {
-  height: 128px;
-  width: 128px;
-  border-radius: 50%;
+  width: 100%;
+  border: 2px solid #888;
+  border-radius: 5px;
 }
 
 .well.white-bg {
